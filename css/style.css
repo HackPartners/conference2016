@@ -1,0 +1,347 @@
+/* Designed by Jeremy Chui */
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.ninja {
+	display:none;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+section[name="navigation"] {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 20px 10px;
+	z-index: 100;
+}
+
+section[name="navigation"] ul {
+	list-style: none;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+section[name="navigation"] ul li {
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+section[name="navigation"] li a {
+	color: #ffffff;
+	font-weight: 300;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+section[name="navigation"] li a:hover {
+	border-bottom: 1px solid rgba(255, 255, 255, 100);
+	transition: 0.6s;
+}
+
+section[name="navigation"] .logo {
+	position: relative;
+	top: 2px;
+	width: 270px;
+	transition: 0.8s
+}
+
+#navbar.scroll {
+	background-color: #000000;
+	transition: 1s;
+	padding: 10px 10px;
+}
+
+#navbar.scroll img.logo {
+	width: 220px;
+	top: 6px;
+	transition: 0.8s;
+}
+
+section[name="header"] {
+	background-image: url("../img/networking.png");
+	background-size: cover;
+	
+	height: 100%;
+	width: 100%;
+	
+	padding-top: 180px;
+	text-align: center;
+}
+
+section[name="header"] p {
+	color: #ffffff;
+	font-weight: 300;
+}
+
+section[name="header"] i {
+	padding-right: 10px;
+	color: #FF6500;
+	font-size: 25px !important;
+	position: relative;
+	top: 3px;
+}
+
+section[name="header"] h3 {
+	font-family: "Lato", sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	padding-top: 20px;
+	max-width: 600px;
+	margin: auto;
+}
+
+section[name="header"] h1 {
+	font-family: "Lato", sans-serif;
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 50px;
+}
+
+section[name="header"] .apply-btn {
+	color: #ffffff;
+	font-weight: 300;
+	padding: 12px 35px;
+	background-color: #FF6500;
+	position: relative;
+	top: 35px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #FF6500;
+}
+
+section[name="header"] .apply-btn:hover {
+	border-bottom: 2px solid #ffffff;
+	transition: 0.8s;
+}
+
+.content {
+	padding: 80px 30px 100px 30px;
+}
+
+.content h1 {
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.content p {
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.content.light tbody {
+	border: 1px solid #f1f1f1 !important;
+	background-color: #ffffff !important;
+}
+
+.content.light td {
+	background-color: #ffffff !important;
+}
+
+.content.dark {
+	background-color: #1b1b1b;
+	color: #ffffff;
+}
+
+.content.dark tbody {
+	border: 1px solid #ffffff !important;
+}
+
+.content.dark td {
+	background-color: #1b1b1b !important;
+}
+
+section[name="about"] img {
+	height: 220px;
+	width: 100%;
+	padding: 20px 30px;
+	margin-top: 30px;
+}
+
+section[name="speakers"] {
+	text-align: center;
+}
+
+section[name="speakers"] img {
+	height: 130px;
+	width: 130px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	outline: none;
+	border: 0;
+}
+
+section[name="speakers"] .name {
+	font-weight: 600;
+}
+
+section[name="speakers"] .desc {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+section[name="schedule"] table {
+	margin-top: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ffffff;
+}
+
+section[name="schedule"] table p {
+	text-align: left;
+	max-width: none;
+}
+
+section[name="schedule"] table p.time {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+section[name="schedule"] table p.title {
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+section[name="schedule"] table p.desc {
+	padding-bottom: 20px;
+}
+
+section[name="schedule"] tbody {
+	background-color: #1b1b1b;
+}
+
+section[name="schedule"] table td {
+	padding: 0;
+}
+
+section[name="faq"] .columns {
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+section[name="faq"] p {
+	text-align: left;
+	padding-left: 35px;
+}
+
+section[name="faq"] p.question {
+	font-weight: 400;
+}
+
+section[name="faq"] p.answer {
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+section[name="faq"] i {
+	float: left;
+	font-size: 24px;
+	position: relative;
+	top: -4px;
+}
+
+section[name="call-to-action"] {
+	height: 180px;
+	padding-top: 40px;
+}
+
+section[name="call-to-action"] .apply-btn {
+	color: #ffffff;
+	font-weight: 300;
+	padding: 12px 35px;
+	background-color: #FF6500;
+	position: relative;
+	top: 20px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #FF6500;
+}
+
+section[name="call-to-action"] .apply-btn:hover {
+	border-bottom: 2px solid #ffffff;
+	transition: 0.8s;
+}
+
+section[name="footer"] {
+	background-color: #000000;
+	color: #ffffff;
+	
+	padding: 50px 30px;
+	
+	font-weight: 300;
+	font-size: 14px;
+}
+
+section[name="footer"] img.footer-logo {
+	height: 70px;
+	margin-bottom: 10px;
+}
+
+section[name="footer"] p {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+section[name="footer"] ul {
+	list-style: none;
+}
+
+section[name="footer"] li a {
+	color: #ffffff;
+	text-align: left;
+}
+
+section[name="footer"] li {
+	padding: 2px 0;
+}
+
+section[name="footer"] .sponsors img {
+	width: 140px;
+	padding: 0 15px;
+}
+
+@media only screen and (max-width: 64.0625em) {
+	section[name="schedule"] table {
+		width: 100%;	
+	}
+	
+	section[name="schedule"] table p.time {
+		padding: 0px;
+		padding-left: 10px;
+	}
+	
+	section[name="schedule"] table p.title {
+		padding: 0px;
+	}
+	
+	section[name="schedule"] table p.desc {
+		display: none;	
+	}
+	
+	section[name="footer"] .sponsors {
+		padding: 20px 10px;
+	}
+	
+	section[name="footer"] .sponsors img {
+		width: 140px;
+		padding: 0 15px;
+	}
+}
