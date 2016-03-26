@@ -290,7 +290,10 @@ section[name="footer"] {
 	font-size: 14px;
 }
 
-section[name="footer"] img.footer-logo {
+section[name="footer"] img.footer-logo-large {
+	margin-bottom: 10px;
+}
+section[name="footer"] img.footer-logo-small {
 	height: 70px;
 	margin-bottom: 10px;
 }
