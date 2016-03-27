@@ -47,7 +47,6 @@ section[name="navigation"] li a:hover {
 
 section[name="navigation"] .logo {
 	position: relative;
-	top: 2px;
 	width: 270px;
 	transition: 0.8s
 }
@@ -60,16 +59,17 @@ section[name="navigation"] .logo {
 
 #navbar.scroll img.logo {
 	width: 220px;
-	top: 6px;
 	transition: 0.8s;
 }
 
 section[name="header"] {
-	background-image: url("../img/networking.png");
+	background-image: url("../img/header-background.jpg");
 	background-size: cover;
 	
 	height: 100%;
 	width: 100%;
+
+	min-height: 900px;
 	
 	padding-top: 180px;
 	text-align: center;
@@ -185,7 +185,7 @@ section[name="speakers"] img {
 	margin-top: 50px;
 	margin-bottom: 20px;
 	outline: none;
-	border: 0;
+	border: transparent;
 }
 
 section[name="speakers"] .name {
@@ -195,6 +195,40 @@ section[name="speakers"] .name {
 section[name="speakers"] .desc {
 	font-size: 14px;
 	line-height: 22px;
+}
+
+section[name="sponsors"] .headline-sponsor-row {
+	width: 100%;
+	max-width: 900px;
+	margin: auto auto;
+}
+section[name="sponsors"] .golden-sponsors-row {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto auto;
+}
+section[name="sponsors"] .consulting-sponsors-row {
+	width: 100%;
+	max-width: 900px;
+	margin: auto auto;
+}
+section[name="sponsors"] .integration-sponsors-row {
+	width: 100%;
+	max-width: 900px;
+	margin: auto auto;
+}
+section[name="sponsors"] .legal-sponsors-row {
+	width: 100%;
+	max-width: 900px;
+	margin: auto auto;
+}
+
+section[name="sponsors"] .sponsor-container {
+	float: left;
+	height: 100px;
+}
+section[name="sponsors"] .sponsor-container img {
+	margin: auto auto;
 }
 
 section[name="schedule"] table {
