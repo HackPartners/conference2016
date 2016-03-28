@@ -198,7 +198,7 @@ section[name="speakers"] .desc {
 }
 
 section[name="sponsors"] .headline-sponsor-row {
-	width: 100%;
+	width: 50%;
 	max-width: 900px;
 	margin: auto auto;
 }
