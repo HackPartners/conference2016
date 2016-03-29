@@ -173,8 +173,8 @@ section[name="header"] .apply-btn:hover {
 }
 
 section[name="about"] img {
-	height: 220px;
-	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
 	padding: 20px 30px;
 	margin-top: 30px;
 }
