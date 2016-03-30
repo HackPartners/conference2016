@@ -259,39 +259,17 @@ section[name="sponsors"] .sponsor-container img {
 	margin: auto auto;
 }
 
-section[name="schedule"] table {
-	margin-top: 40px;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid #ffffff;
-}
-
 section[name="schedule"] table p {
-	text-align: left;
-	max-width: none;
+	text-align: left !important;
 }
 
-section[name="schedule"] table p.time {
-	padding-top: 20px;
-	padding-left: 20px;
+section[name="schedule"] .title {
+	font-weight: bold;
+	font-size: 1.2em;
 }
-
-section[name="schedule"] table p.title {
-	font-weight: 600;
-	padding-top: 20px;
-}
-
-section[name="schedule"] table p.desc {
-	padding-bottom: 20px;
-}
-
-section[name="schedule"] tbody {
-	background-color: #1b1b1b;
-}
-
-section[name="schedule"] table td {
-	padding: 0;
+	
+section[name="schedule"] .desc {
+	display: none;	
 }
 
 section[name="faq"] .columns {
@@ -383,6 +361,8 @@ section[name="footer"] .sponsors img {
 	padding: 0 15px;
 }
 
+
+
 @media only screen and (max-width: 64.0625em) {
 	section[name="schedule"] table {
 		width: 100%;	
@@ -395,10 +375,11 @@ section[name="footer"] .sponsors img {
 	
 	section[name="schedule"] table p.title {
 		padding: 0px;
+		padding-left: 20px;
 	}
 	
-	section[name="schedule"] table p.desc {
-		display: none;	
+	section[name='schedule'] table p.img {
+		padding: 30px;
 	}
 	
 	section[name="footer"] .sponsors {
