@@ -4,6 +4,14 @@ body {
 	font-family: "Lato", sans-serif;
 }
 
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
 .ninja {
 	display:none;
 }
@@ -25,6 +33,10 @@ section[name="navigation"] {
 	width: 100%;
 	padding: 20px 10px;
 	z-index: 100;
+}
+section[name="navigation"] .apply-btn {
+	margin-top: -30px !important;
+	top: 0;
 }
 
 section[name="navigation"] ul {
@@ -79,6 +91,16 @@ section[name="header"] {
 	
 	padding-top: 180px;
 	text-align: center;
+}
+
+section[name="header"] .event-sponsors {
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+	color: white;
+}
+section[name="header"] .event-sponsors .sr-logo {
+	margin-top:-10%;
 }
 
 section[name="header"] p {
@@ -210,22 +232,22 @@ section[name="sponsors"] .headline-sponsor-row {
 }
 section[name="sponsors"] .golden-sponsors-row {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 900px;
 	margin: auto auto;
 }
 section[name="sponsors"] .consulting-sponsors-row {
 	width: 100%;
-	max-width: 900px;
+	max-width: 700px;
 	margin: auto auto;
 }
 section[name="sponsors"] .integration-sponsors-row {
 	width: 100%;
-	max-width: 900px;
+	max-width: 600px;
 	margin: auto auto;
 }
 section[name="sponsors"] .legal-sponsors-row {
 	width: 100%;
-	max-width: 900px;
+	max-width: 600px;
 	margin: auto auto;
 }
 
@@ -304,10 +326,10 @@ section[name="call-to-action"] {
 	padding-top: 40px;
 }
 
-section[name="call-to-action"] .apply-btn {
+.apply-btn {
 	color: #ffffff;
 	font-weight: 300;
-	padding: 12px 35px;
+	padding: 12px 35px 12px !important;
 	background-color: #FF6500;
 	position: relative;
 	top: 20px;
@@ -315,7 +337,7 @@ section[name="call-to-action"] .apply-btn {
 	border-bottom: 2px solid #FF6500;
 }
 
-section[name="call-to-action"] .apply-btn:hover {
+.apply-btn:hover {
 	border-bottom: 2px solid #ffffff;
 	transition: 0.8s;
 }
