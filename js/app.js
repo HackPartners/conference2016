@@ -22,3 +22,11 @@ $(document).ready(function() {
 	$("#schedule tr").on("click", toggleDescription);
 
 });
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 600) {
+        $('#navbar').addClass('scroll');
+    } else {
+        $('#navbar').removeClass('scroll');
+    }
+});
