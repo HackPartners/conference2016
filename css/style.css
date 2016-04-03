@@ -27,43 +27,43 @@ p {
 
 }
 
-section[name="navigation"] {
+.section-navigation {
 	position: fixed;
 	top: 0;
 	width: 100%;
 	padding: 20px 10px;
 	z-index: 100;
 }
-section[name="navigation"] .apply-btn {
+.section-navigation .apply-btn {
 	margin-top: -30px !important;
 	top: 0;
 }
 
-section[name="navigation"] ul {
+.section-navigation ul {
 	list-style: none;
 	float: right;
 	padding: 0;
 	margin: 0;
 }
 
-section[name="navigation"] ul li {
+.section-navigation ul li {
 	display: inline-block;
 	padding: 10px 15px;
 }
 
-section[name="navigation"] li a {
+.section-navigation li a {
 	color: #ffffff;
 	font-weight: 300;
 	padding-bottom: 5px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
-section[name="navigation"] li a:hover {
+.section-navigation li a:hover {
 	border-bottom: 1px solid rgba(255, 255, 255, 100);
 	transition: 0.6s;
 }
 
-section[name="navigation"] .logo {
+.section-navigation .logo {
 	position: relative;
 	width: 270px;
 	transition: 0.8s
@@ -80,7 +80,7 @@ section[name="navigation"] .logo {
 	transition: 0.8s;
 }
 
-section[name="header"] {
+.section-header {
 	background-image: url("../img/header-background.jpg");
 	background-size: cover;
 	
@@ -93,22 +93,22 @@ section[name="header"] {
 	text-align: center;
 }
 
-section[name="header"] .event-sponsors {
+.section-header .event-sponsors {
 	position: absolute;
 	bottom: 20px;
 	right: 0px;
 	color: white;
 }
-section[name="header"] .event-sponsors .sr-logo {
+.section-header .event-sponsors .sr-logo {
 	margin-top:-10%;
 }
 
-section[name="header"] p {
+.section-header p {
 	color: #ffffff;
 	font-weight: 300;
 }
 
-section[name="header"] i {
+.section-header i {
 	padding-right: 10px;
 	color: #FF6500;
 	font-size: 25px !important;
@@ -116,7 +116,7 @@ section[name="header"] i {
 	top: 3px;
 }
 
-section[name="header"] h3 {
+.section-header h3 {
 	font-family: "Lato", sans-serif;
 	color: #ffffff;
 	font-size: 14px;
@@ -128,14 +128,14 @@ section[name="header"] h3 {
 	margin: auto;
 }
 
-section[name="header"] h1 {
+.section-header h1 {
 	font-family: "Lato", sans-serif;
 	color: #ffffff;
 	font-weight: 300;
 	font-size: 50px;
 }
 
-section[name="header"] .apply-btn {
+.section-header .apply-btn {
 	color: #ffffff;
 	font-weight: 300;
 	padding: 12px 35px;
@@ -146,7 +146,7 @@ section[name="header"] .apply-btn {
 	border-bottom: 2px solid #FF6500;
 }
 
-section[name="header"] .apply-btn:hover {
+.section-header .apply-btn:hover {
 	border-bottom: 2px solid #ffffff;
 	transition: 0.8s;
 }
@@ -194,18 +194,18 @@ section[name="header"] .apply-btn:hover {
 	background-color: #1b1b1b !important;
 }
 
-section[name="about"] img {
+.section-about img {
 	max-height: 100%;
 	max-width: 100%;
 	padding: 20px 30px;
 	margin-top: 30px;
 }
 
-section[name="speakers"] {
+.section-speakers {
 	text-align: center;
 }
 
-section[name="speakers"] img {
+.section-speakers img {
 	height: 130px;
 	width: 130px;
 	background-color: #ffffff;
@@ -216,90 +216,90 @@ section[name="speakers"] img {
 	border: transparent;
 }
 
-section[name="speakers"] .name {
+.section-speakers .name {
 	font-weight: 600;
 }
 
-section[name="speakers"] .desc {
+.section-speakers .desc {
 	font-size: 14px;
 	line-height: 22px;
 }
 
-section[name="sponsors"] .headline-sponsor-row {
+.section-sponsors .headline-sponsor-row {
 	width: 50%;
 	max-width: 900px;
 	margin: auto auto;
 }
-section[name="sponsors"] .golden-sponsors-row {
+.section-sponsors .golden-sponsors-row {
 	width: 100%;
 	max-width: 900px;
 	margin: auto auto;
 }
-section[name="sponsors"] .consulting-sponsors-row {
+.section-sponsors .consulting-sponsors-row {
 	width: 100%;
 	max-width: 700px;
 	margin: auto auto;
 }
-section[name="sponsors"] .integration-sponsors-row {
+.section-sponsors .integration-sponsors-row {
 	width: 100%;
 	max-width: 600px;
 	margin: auto auto;
 }
-section[name="sponsors"] .legal-sponsors-row {
+.section-sponsors .legal-sponsors-row {
 	width: 100%;
 	max-width: 600px;
 	margin: auto auto;
 }
 
-section[name="sponsors"] .sponsor-container {
+.section-sponsors .sponsor-container {
 	float: left;
 	height: 100px;
 }
-section[name="sponsors"] .sponsor-container img {
+.section-sponsors .sponsor-container img {
 	margin: auto auto;
 }
 
-section[name="schedule"] table p {
+.section-sponsors table p {
 	text-align: left !important;
 }
 
-section[name="schedule"] .title {
+.section-sponsors .title {
 	font-weight: bold;
 	font-size: 1.2em;
 }
 	
-section[name="schedule"] .desc {
+.section-sponsors .desc {
 	display: none;	
 }
 
-section[name="faq"] .columns {
+.section-faq .columns {
 	padding-top: 30px;
 	padding-right: 20px;
 	padding-left: 20px;
 }
 
-section[name="faq"] p {
+.section-faq p {
 	text-align: left;
 	padding-left: 35px;
 }
 
-section[name="faq"] p.question {
+.section-faq p.question {
 	font-weight: 400;
 }
 
-section[name="faq"] p.answer {
+.section-faq p.answer {
 	padding-top: 5px;
 	font-size: 14px;
 }
 
-section[name="faq"] i {
+.section-faq i {
 	float: left;
 	font-size: 24px;
 	position: relative;
 	top: -4px;
 }
 
-section[name="call-to-action"] {
+.section-call-to-action {
 	height: 180px;
 	padding-top: 40px;
 }
@@ -320,7 +320,7 @@ section[name="call-to-action"] {
 	transition: 0.8s;
 }
 
-section[name="footer"] {
+.section-footer {
 	background-color: #000000;
 	color: #ffffff;
 	
@@ -330,33 +330,33 @@ section[name="footer"] {
 	font-size: 14px;
 }
 
-section[name="footer"] img.footer-logo-large {
+.section-footer img.footer-logo-large {
 	margin-bottom: 10px;
 }
-section[name="footer"] img.footer-logo-small {
+.section-footer img.footer-logo-small {
 	height: 70px;
 	margin-bottom: 10px;
 }
 
-section[name="footer"] p {
+.section-footer p {
 	font-size: 14px;
 	font-weight: 300;
 }
 
-section[name="footer"] ul {
+.section-footer ul {
 	list-style: none;
 }
 
-section[name="footer"] li a {
+.section-footer li a {
 	color: #ffffff;
 	text-align: left;
 }
 
-section[name="footer"] li {
+.section-footer li {
 	padding: 2px 0;
 }
 
-section[name="footer"] .sponsors img {
+.section-footer .sponsors img {
 	width: 140px;
 	padding: 0 15px;
 }
@@ -364,16 +364,16 @@ section[name="footer"] .sponsors img {
 
 
 @media only screen and (max-width: 64.0625em) {
-	section[name="schedule"] table {
+	.section-sponsors table {
 		width: 100%;	
 	}
 	
-	section[name="schedule"] table p.time {
+	.section-sponsors table p.time {
 		padding: 0px;
 		padding-left: 10px;
 	}
 	
-	section[name="schedule"] table p.title {
+	.section-sponsors table p.title {
 		padding: 0px;
 		padding-left: 20px;
 	}
@@ -382,11 +382,11 @@ section[name="footer"] .sponsors img {
 		padding: 30px;
 	}
 	
-	section[name="footer"] .sponsors {
+	.section-footer .sponsors {
 		padding: 20px 10px;
 	}
 	
-	section[name="footer"] .sponsors img {
+	.section-footer .sponsors img {
 		width: 140px;
 		padding: 0 15px;
 	}
