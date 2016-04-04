@@ -84,25 +84,18 @@ p {
 	background-image: url("../img/header-background.jpg");
 	background-size: cover;
 	
-	height: 100%;
 	width: 100%;
 
-	min-height: 900px;
-	
 	padding-top: 180px;
+	padding-bottom: 250px;
 	text-align: center;
 }
 
 .section-header .event-sponsors {
 	position: absolute;
-	bottom: 20px;
 	right: 0px;
 	color: white;
 }
-.section-header .event-sponsors .sr-logo {
-	margin-top:-10%;
-}
-
 .section-header p {
 	color: #ffffff;
 	font-weight: 300;
