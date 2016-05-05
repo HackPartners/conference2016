@@ -251,6 +251,11 @@ p {
 .section-sponsors .sponsor-container img {
 	margin: auto auto;
 }
+.section-sponsors .sponsor-container-vtec img {
+	height: 120px;
+	width: 300px !important;
+	margin-top: -50px;
+}
 
 .section-sponsors table p {
 	text-align: left !important;
